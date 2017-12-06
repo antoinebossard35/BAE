@@ -12,6 +12,10 @@ public class CustomerActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Comment from ABD
+
+
         setContentView(R.layout.activity_customer);
     }
 }
