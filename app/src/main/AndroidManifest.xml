@@ -21,6 +21,9 @@
         <activity android:name=".LoginActivity"/>
         <activity android:name=".ProfileActivity"/>
         <activity android:name=".InformationsActivity"/>
+        <activity android:name=".TimeInformationActivity"/>
+        <activity android:name=".LevelInformationActivity"/>
+        <activity android:name=".AreaInformationActivity"/>
     </application>
 
 </manifest>
