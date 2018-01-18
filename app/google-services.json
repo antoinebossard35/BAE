@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "918867870618",
+    "firebase_url": "https://bae-back-end.firebaseio.com",
+    "project_id": "bae-back-end",
+    "storage_bucket": "bae-back-end.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918867870618:android:43a2a6de1701f659",
+        "android_client_info": {
+          "package_name": "com.decathlon.bae.bae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918867870618-u86vhbi713v59qfqhst524jdptrtvdvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.decathlon.bae.bae",
+            "certificate_hash": "6dc867a0f451bc120702d35a75b5f6ea5ce35dfc"
+          }
+        },
+        {
+          "client_id": "918867870618-vo96bq6r62lu8b2tp7jsgcpiknrme704.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.decathlon.bae.bae",
+            "certificate_hash": "a3d38847420aacc8f5371af2fcacce0d5dcb9976"
+          }
+        },
+        {
+          "client_id": "918867870618-trap5f6nmptblmefgsv57nhkeht8l1qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjgo0Yp736CdybGDsgtYj4l6sEcpOaGxk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918867870618-trap5f6nmptblmefgsv57nhkeht8l1qu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

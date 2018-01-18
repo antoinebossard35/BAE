@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/levelButton"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="310dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Level"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/areaButton"
+        android:layout_width="218dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Area and clubs"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="217dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Time Availability"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nokTimeImage"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        android:src="@drawable/nokpic"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="81dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/nokLevelImage"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:src="@drawable/nokpic"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="330dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/nokAreaImage"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:src="@drawable/nokpic"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="201dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/okTimeImage"
+        android:layout_width="18dp"
+        android:layout_height="55dp"
+        android:src="@drawable/okpic"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/okAreaImage"
+        android:layout_width="18dp"
+        android:layout_height="55dp"
+        android:src="@drawable/okpic"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="190dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/okLevelImage"
+        android:layout_width="18dp"
+        android:layout_height="55dp"
+        android:src="@drawable/okpic"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="315dp"
+        android:visibility="invisible"/>
+
+</android.support.constraint.ConstraintLayout>
